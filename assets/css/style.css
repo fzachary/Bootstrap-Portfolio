@@ -1,6 +1,14 @@
+.navbar {
+    background: #99badd !important;
+}
+
 .navbar-brand {
     font-size: 24px;
     font-weight: 500;
+}
+
+.nav-item {
+    float: right !important;
 }
 
 li a {
