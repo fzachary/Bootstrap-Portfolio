@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+li a {
+    color: #333333;
+    text-decoration: none !important;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #ffffff;
+}
+
+img {
+    width: 27%;
+    height: 27%;
+    float: left;
+    margin-right: 15px;
+}
