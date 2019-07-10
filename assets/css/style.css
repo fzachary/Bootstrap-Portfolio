@@ -1,10 +1,16 @@
 nav {
     background-color: #99badd;
+    border-bottom: solid 2px #333333;
 }
 
 .navbar-brand {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-brand:hover {
+    color: #ffffff !important;
 }
 
 li a {
@@ -19,17 +25,60 @@ a {
     text-decoration: none !important;
 }
 
-a:hover {
-    color: #99badd;
-}
-
 .btn {
     background-color: #99badd;
     color: #333333;
     border-color: #333333;
+    margin-bottom: 60px;
 }
 
 .btn:hover {
     background-color: #333333;
     color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    background-color: #99badd;
+    color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 125%;
+}
+
+h3:hover {
+    color: #ffffff;
+}
+
+.card-title {
+    background: #99badd;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #99badd;
+    left: 0;
+    text-align: center;
+    border-top: solid 2px #333333;
+}
+
+#frankpicture {
+    border-radius: 10px;
+}
+
+p {
+    font-size: 17px;
 }
